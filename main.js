@@ -4,7 +4,7 @@ const menu = document.getElementById("menu");
 // Smooth Scroll para los enlaces internos
 document.getElementById("1").addEventListener("click", function(event) {
     event.preventDefault(); 
-    window.location.href = "Akali.html";  
+    window.location.href = "Champs/Akali/Akali.html";  
 });
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

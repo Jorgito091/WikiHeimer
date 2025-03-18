@@ -5,8 +5,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #f5f1f1;
-    
-    background:#102c54;
+    background: url("assets/1366_2000.png");
+    background-size: contain;
+    background-size: cover;
+   
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -24,6 +26,7 @@ body {
     border-radius: 15px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     border: 1px solid rgba(255, 255, 255, 0.2); 
+    background-color: #102c54;
 }
 
 
@@ -181,4 +184,8 @@ footer {
 
 .campeon-imagen:hover {
     transform: scale(1.2); /* Efecto de zoom en la imagen */
+}
+.yeha {
+    width:5px;
+    height:5px;
 }
