@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akali - La Asesina Furtiva</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="Akali.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <!-- Header -->
+        <header>
+            <h1>Akali</h1>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+           
+            <section class="seccion-mitad">
+                <div class="seccion-izquierda">
+                    <h2>La asesina furtiva</h2>
+                    <p>Tras renunciar a la Orden Kinkou y a su título como el Puño de la Sombra, Akali pelea a solas, lista para ser el arma letal que su pueblo necesita. Aunque conserva todo lo que aprendió de su maestro Shen, juró defender a Jonia de sus enemigos... una víctima a la vez. Puede que Akali ataque en silencio, pero su mensaje resonará con fuerza y claridad: témanle a la asesina sin maestro.</p>
+                    <!-- Botón "Conocer más" -->
+                    
+                </div>
+                <div class="seccion-derecha">
+                    <figure>
+                        <img src="AssetsAkali/AkaliBanner.png" alt="Akali - La Asesina Furtiva">
+                    </figure>
+                </div>
+            </section>
+
+            
+            <section id="seccion-historia" class="seccion-mitad seccion-oculta">
+                <div class="seccion-izquierda">
+                    <h2>Historia</h2>
+                    <p>La historia de Akali es la de una joven que se enfrenta a su destino y a la tradición para forjar su propio camino. Aunque nació en la próspera familia de los Kinkou, Akali se sintió atraída por la disciplina de la lucha y la magia de la sombra. A pesar de que su madre intentó disuadirla, Akali abandonó la Orden y se convirtió en la asesina que conocemos hoy en día. Aunque Akali no tiene maestro, sigue siendo una de las campeonas más letales de Runaterra.</p>
+                </div>
+                <div class="seccion-derecha">
+                    <figure>
+                        <img src="AssetsAkali/AkaliLogo.png">
+                    </figure>
+                </div>
+            </section>
+
+         
+            <div class="container">
+                <div class="images-section">
+                    <img src="AssetsAkali/Akali_P.png" alt="Imagen 1" class="image" onclick="showContent(1)">
+                    <img src="AssetsAkali/AkaliQ.png" alt="Imagen 2" class="image" onclick="showContent(2)">
+                    <img src="AssetsAkali/AkaliW.png" alt="Imagen 3" class="image" onclick="showContent(3)">
+                    <img src="AssetsAkali/AkaliE.png" alt="Imagen 4" class="image" onclick="showContent(4)">
+                    <img src="AssetsAkali/AkaliR.png" alt="Imagen 5" class="image" onclick="showContent(5)">
+                </div>
+        
+                <div class="content-section">
+                    <div id="video-container">
+                        <p id="video-text">Click para conocer as sobre cada habilidad</p>
+                        <video id="video" style="display: none;" muted>
+                            <source src="" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <br> <br>  <br>
+            <section class="seccion-izquierda">
+                <h2>Runas</h2>
+                <div class="runa-container">
+                    <!-- Grupo superior (4 runas) -->
+                    <div class="runa-group runa-top">
+                        <img src="" alt="" id="Imagen1" class="imgruna1">
+                        <img src="" alt="" id="Imagen2" class="imgruna">
+                        <img src="" alt="" id="Imagen3" class="imgruna">
+                        <img src="" alt="" id="Imagen4" class="imgruna">
+                    </div>
+            
+                    <!-- Grupo inferior (2 runas) -->
+                    <div class="runa-group runa-bottom">
+                        <img src="" alt="" id="Imagen5" class="imgruna">
+                        <img src="" alt="" id="Imagen6" class="imgruna">
+                    </div>
+            
+                    <!-- Grupo lateral (2 runas) -->
+                    <div class="runa-group runa-side">
+                        <img src="" alt="" id="Imagen7" class="imgruna">
+                        <img src="" alt="" id="Imagen8" class="imgruna">
+                    </div>
+                    
+                    <!-- Descripción ahora está dentro del contenedor pero al final -->
+                    <p id="DescripcionRuna" class="runa-descripcion">Selecciona un conjunto de runas</p>
+                </div>
+                
+                <div class="runa-buttons">
+                    <button onclick="CambioRuna(0)">Electrocutar</button>
+                    <button onclick="CambioRuna(1)">Conquistador</button>
+                    <button onclick="CambioRuna(2)">Garra</button>
+                </div>
+            </section>
+            
+            <section class="seccion-carrusel">
+                <h2>Skins disponibles</h2>
+                <div class="contenedor-carrusel">
+                    <button id="anterior-carrusel" class="flecha">&#10094;</button>
+                    <div class="carrusel-interno">
+                        <img id="imagen-carrusel" src="AssetsAkali/Akali_0.jpg" alt="Akali 1">
+                    </div>
+                    <button id="siguiente-carrusel" class="flecha">&#10095;</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 HeimerWiki</p>
+        </footer>
+    </div>
+
+    
+    <script src="Akali.js"></script>
+</body>
+</html>
