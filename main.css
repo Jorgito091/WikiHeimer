@@ -4,11 +4,17 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+<<<<<<< HEAD
     color: #f5f1f1;
     background: url("assets/1366_2000.png");
     background-size: contain;
     background-size: cover;
    
+=======
+    color: #333;
+    
+    background:#102c54;
+>>>>>>> 9c3c254c7faf964d027b8c735b53e11a5faf66cc
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -26,7 +32,10 @@ body {
     border-radius: 15px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     border: 1px solid rgba(255, 255, 255, 0.2); 
+<<<<<<< HEAD
     background-color: #102c54;
+=======
+>>>>>>> 9c3c254c7faf964d027b8c735b53e11a5faf66cc
 }
 
 
@@ -132,6 +141,7 @@ footer {
 
 .menu ul li:hover {
     background-color: #f0f0f0;
+<<<<<<< HEAD
 
 
 }
@@ -188,4 +198,6 @@ footer {
 .yeha {
     width:5px;
     height:5px;
+=======
+>>>>>>> 9c3c254c7faf964d027b8c735b53e11a5faf66cc
 }
